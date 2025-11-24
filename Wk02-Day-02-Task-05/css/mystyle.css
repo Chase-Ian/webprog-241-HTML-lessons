@@ -10,10 +10,16 @@ h1 {
 h2 {
   font-family: "Lucida Console", "Courier New", monospace;
   color: navy;
-  border-width: 4px;
   border-style: ridge;
+  border-width: 4px;
 }
 
 p {
   font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  border-width: 5px;
 }

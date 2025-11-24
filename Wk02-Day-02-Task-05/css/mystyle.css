@@ -17,9 +17,3 @@ h2 {
 p {
   font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
-h3 {
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: bold;
-  border-width: 5px;
-}

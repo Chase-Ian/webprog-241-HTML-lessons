@@ -10,3 +10,4 @@
 
 <p> Week 2 Day 1 Task 05 <a href="https://chase-ian.github.io/webprog-241-HTML-lessons/home/" target="_blank">here</a> </p> 
 
+<p> Week 2 Day 2 Task 05 <a href="https://chase-ian.github.io/webprog-241-HTML-lessons/Wk02-Day-02-Task-05/">here</a> </p> 

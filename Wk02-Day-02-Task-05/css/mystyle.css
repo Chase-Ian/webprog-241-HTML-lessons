@@ -8,6 +8,12 @@ h1 {
   color: navy;
 }
 
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: navy;
+  border: 1px solid black;
+}
+
 p {
   font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }

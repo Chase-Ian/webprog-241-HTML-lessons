@@ -25,7 +25,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   background-color: LightBlue;
-  width: 50%;
 }
  
 .container div {
@@ -35,19 +34,13 @@ p {
   padding: 10px;
   text-align: center;  
   font-size: 12px;
+    width: 50%;
 }
 
-.container div {
-  background-color: #f1f1f1;
-  width: 200px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;  
-  font-size: 12px;
-}
 
 .img-gallery-container div {
   width: 100%;
+  background-color: #f1f1f1;
 }
 .img-gallery-container img {
   width: 100%;

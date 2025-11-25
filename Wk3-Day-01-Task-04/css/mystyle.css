@@ -39,6 +39,7 @@ p {
 
 
 .img-gallery-container div {
+  width: 100%;
   background-color: #f1f1f1;
 }
 .img-gallery-container img {

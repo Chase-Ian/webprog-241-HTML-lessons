@@ -28,9 +28,10 @@ p {
  
 .container div {
   background-color: #f1f1f1;
-  width: 100px;
+  width: 150px;
   margin: 10px;
   padding: 10px;
   text-align: center;  
-  font-size: 30px;
+  flex: 1;
+  font-size: 12px;
 }

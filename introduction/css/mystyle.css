@@ -1,0 +1,19 @@
+body {
+  background-color: #dadada;
+}
+
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: navy;
+}
+
+h2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: navy;
+  border-style: ridge;
+  border-width: 4px;
+}
+
+p {
+  font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

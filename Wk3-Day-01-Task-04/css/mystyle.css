@@ -25,6 +25,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   background-color: LightBlue;
+  width: 50%;
 }
  
 .container div {

@@ -12,3 +12,11 @@
   font-size: 30px;
   text-align: center;
 }
+
+h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: navy;
+  border-style: ridge;
+  border-width: 4px;
+  text-align: center;
+}

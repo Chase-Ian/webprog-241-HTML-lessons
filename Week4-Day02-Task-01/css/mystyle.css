@@ -54,6 +54,6 @@ font-size:20px;
     opacity: 0.9;
   }
   .gallery-item img:hover {
-    transform: scale(1.07);
+    transform: scale(2.50);
     opacity: 1;
   }

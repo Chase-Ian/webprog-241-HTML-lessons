@@ -52,6 +52,7 @@ font-size:20px;
 .gallery-item img {
     transition: transform 0.35s ease, opacity 0.35s ease;
     opacity: 0.9;
+    position: center;
     
   }
   .gallery-item img:hover {

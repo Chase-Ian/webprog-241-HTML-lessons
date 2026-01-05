@@ -12,19 +12,19 @@ min-height: 100vh;
 position: fixed;
 top: 0;
 left: 0;
-width: 100%;
 height: 100%;
+width: 100%;
 pointer-events: none;
 z-index: -1;
 background: url('https://i.pinimg.com/originals/f5/42/b4/f542b451edfdd55a8bf3f0a1392ef9f6.jpg');
 opacity: 0.35;
+background-size: contain;
 }
 .profile-card {
-background: rgba(255, 255, 255, 0.05);
-backdrop-filter: blur(12px);
-border-radius: 20px;
-padding: clamp(20px, 5vw, 40px);
-box-shadow: 0 0 20px rgba(255,255,255,0.1);
+  width: min(90%, 1200px);
+  min-height: 70vh;
+  padding: clamp(32px, 5vw, 64px);
+  backdrop-filter: blur(14px);
 }
 .avatar {
 width: clamp(100px, 25vw, 140px);
@@ -62,15 +62,34 @@ h3{
 font-size: clamp(1.1rem, 2.5vw, 1.25rem);
 }
 
-.gallery-item {
-   overflow: hidden;
+.gallery-img {
+  width: clamp(180px, 22vw, 360px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  transition: transform 0.3s ease;
 }
 
-.gallery-item img:hover {
-  transform: scale(1.15);
+.gallery-img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(255,255,255,0.25);
 }
- 
 
+@media (min-width: 992px) {
+  .gallery-img:hover {
+    transform: scale(1.1);
+  }
+}
+
+.page {
+  display: none;
+  padding-top: 100px;
+}
+
+.page.active {
+  display: block;
+}
  
  
  

@@ -11,24 +11,45 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand nav-btn" data-page="home" href="#">Personal Profile</a>
+
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link nav-btn" data-page="about" href="#">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-btn" data-page="gallery" href="#">Gallery</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 
   <div class="star-field"></div>
 
   <div class="container d-flex justify-content-center align-items-center">
     <div class="profile-card text-center col-12 col-md-7 col-lg-5">
-
-      <h1>Personal Profile Web Page</h1>
-
+      <section id="home" class="page active">
+          <h1>Welcome to my personal webpage!</h1>
+      </br>
+            <h2 class="fw-bold">Chase Ian</h2>
       <img
+        class="avatar mb-4"
+        src="avatar.jpg"
+        alt="Avatar placeholder">
+        <p>• Programmer • Game Developer</p>
+        </section>
+
+        <section id="about" class="page">
+          
+        <img
         class="avatar mb-4"
         src="avatar.jpg"
         alt="Avatar placeholder">
 
       <h2 class="fw-bold">Chase Ian</h2>
-      <p>• Programmer • Game Developer</p>
-
-      <hr class="border-secondary">
-
       <p class="mt-3">
         <strong>About Me</strong><br>
         Good day! My name is Chase from IT241.
@@ -69,16 +90,46 @@
         </div>
       </div>
 
-      <section class="container my-5">
-        <h2 class="text-center mb-4">Image Gallery</h2>
+        </section>
 
-        <div class="gallery-item">
-          <img src="imageGalleryImage1.png" alt="First gallery image">
+        <section id="gallery" class="page">
+  <div class="container my-5">
+
+
+      <h2 class="text-center mb-4">Image Gallery</h2>
+
+      <div class="row g-3">
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="imageGalleryImage1.png" class="img-fluid gallery-img" alt="Gallery image 1">
         </div>
-      </section>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="imageGalleryImage2.jpg" class="img-fluid gallery-img" alt="Gallery image 2">
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="imageGalleryImage3.jpg" class="img-fluid gallery-img" alt="Gallery image 3">
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="imageGalleryImage4.jpg" class="img-fluid gallery-img" alt="Gallery image 4">
+        </div>
+
+      </div>
+
+  </div>
+</section>
+        </section>
+
+      
+
+
+      
+      
 
     </div>
   </div>
-
+<script src="js/myScript.js"></script>
 </body>
 </html>
